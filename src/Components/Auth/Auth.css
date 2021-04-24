@@ -1,0 +1,70 @@
+.loginAuthContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.loginAuth {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #2e2e2e;
+    border-radius: 8px;
+}
+
+.loginAuthTextButtons {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginAuthTextButtons .title {
+    font-size: 34px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.loginAuthTextButtons .loginSSL {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 20px;
+    max-width: 350px;
+}
+
+.signWithAuthProvBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginAuthTextButtons .signWithAuthProvBtn .logoAuthIcon {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+}
+
+.loginAuthTextButtons .signWithAuthProvBtn {
+    margin-top: 20px;
+    padding: 10px 12px;
+    border: none;
+    background: #2e2e2e;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #fff;
+}
+
+.loginAuthTextButtons .signWithAuthProvBtn .loginAuthText {
+    margin-left: 5px;
+}
+
+.loginSSLlinks {
+    color: #fd4d4d;
+}
