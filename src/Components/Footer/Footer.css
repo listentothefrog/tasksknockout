@@ -1,0 +1,43 @@
+.footerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-height: 10vh;
+}
+
+.footerContainer .footerImageContainer {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerContainer .footerImageContainer .logoImg {
+    width: 25px;
+    height: 25px;
+}
+
+.footerContainer .footerImageContainer h3 {
+    margin-left: 5px;
+}
+
+.footerContainer .footerSSL {
+    flex: 1;
+}
+
+.footerContainer .footerSLLSub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerContainer .footerSLLSub .sslSubIcon {
+    width: 25px;
+    height: 25px;
+}
+
+.footerContainer .footerSLLSub h3 {
+    margin-left: 5px;
+}
