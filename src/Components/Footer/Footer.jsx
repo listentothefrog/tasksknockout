@@ -11,7 +11,7 @@ function Footer() {
             <div className="footerSSL">
                 <div className="footerSLLSub">
                     <img src="https://cdn.icon-icons.com/icons2/2108/PNG/512/discord_icon_130958.png" className="sslSubIcon"/>
-                    <h3>Discord</h3>
+                    <h3><a style={{textDecoration: "none", color: "#000"}} href="https://discord.gg/upq9e8fMRR" target="_blank">Discord</a></h3>
                 </div>
             </div>
         </div>
