@@ -42,6 +42,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #2e2e2e;
 }
 
 .loginAuthTextButtons .signWithAuthProvBtn .logoAuthIcon {
@@ -54,7 +55,6 @@
     margin-top: 20px;
     padding: 10px 12px;
     border: none;
-    background: #2e2e2e;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
@@ -67,4 +67,26 @@
 
 .loginSSLlinks {
     color: #fd4d4d;
+}
+
+@media (prefers-color-scheme: dark) {
+     * {
+         background-color: #171a1f;
+         color: #fff;
+     }
+     .loginAuth {
+         border: 2px solid #fff;
+     }
+     .signWithAuthProvBtn {
+         background-color: #fff;
+         color: #000;
+     }
+     .loginAuthTextButtons .signWithAuthProvBtn .logoAuthIcon {
+         background-color: transparent;
+     }
+     .loginAuthTextButtons .signWithAuthProvBtn .loginAuthText {
+         background-color: transparent;
+         color: #000;
+         font-weight: 500;
+     }
 }
