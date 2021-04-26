@@ -1,0 +1,64 @@
+.todoMainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todoMainUserInfoHeader {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    min-height: 10vh;
+    margin: auto;
+}
+
+.userProfileContainer {
+    display: flex;
+    align-items: center;
+}
+
+.userProfileContainer .userProfile {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.userProfileContainer .userName {
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.userAccountOptions {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.userAccountOptions .siteUpdates {
+    margin-right: 25px;
+}
+
+.userAccountOptions .signOut {
+    padding: 10px 15px;
+    border: none;
+    background-color: #2e2e2e;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+@media (prefers-color-scheme: dark) {
+    * {
+        background-color: #171a1f;
+        color: #fff;
+    }
+    .userAccountOptions .signOut {
+        background-color: #fff;
+        color: #000;
+        font-weight: 500;
+    }
+}
