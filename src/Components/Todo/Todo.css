@@ -1,0 +1,60 @@
+.todoBoxContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.todoBoxContainer .todoFormInput {
+    width: 1000px;
+    height: 45px;
+    border: none;
+    margin-right: 15px;
+    font-size: 16px;
+    border: 1px solid #2e2e2e;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.todoFormContainer {
+    width: 90%;
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.todoBoxContainer .todoAddContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todoBoxContainer  .addTodoIcon {
+   align-items: center;
+   justify-content: center;
+   margin-right: 15px;
+   border-radius: 5px;
+   cursor: pointer;
+   border: 1px solid #fff;
+}
+
+.userTodosContainer {
+    display: flex;
+    align-items: center;
+    width: 82%;
+    margin: auto;
+}
+
+@media (prefers-color-scheme: dark) {
+    * {
+        background-color: #171a1f;
+        color: #fff;
+    }
+    .todoBoxContainer .tasksSubmitBtn {
+        background-color: #fff;
+        color: #2e2e2e;
+        font-weight: 500;
+    }
+}
