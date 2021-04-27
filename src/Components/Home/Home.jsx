@@ -3,6 +3,7 @@ import {auth} from "../Auth/Auth"
 import "./Home.css"
 import Todo from "../Todo/Todo"
 import {useAuthState} from "react-firebase-hooks/auth"
+import NotificationsIcon from '@material-ui/icons/Notifications';
 
 
 function Home() {
@@ -11,13 +12,13 @@ function Home() {
         <div>
             <div className="todoMainContainer">
             <div className="todoMainUserInfoHeader">
-                <div className="userProfileContainer">
-                    <img className="userProfile" width="100" height="100" src={user.photoURL} />
-                    <h1 className="userName">{user.displayName}'s Tasks</h1>
+                <div className="logoContainer">
+                    <h3>TasksKnockout</h3>
                 </div>
                 <div className="userAccountOptions">
-                    <p className="siteUpdates">Site Patch Notes</p>
+                    <NotificationsIcon className="siteUpdatesIcons"/>
                     <button className="signOut" onClick={() => auth.signOut()}>Sign Out</button>
+                    <img className="userProfile" src={user.photoURL} />
                 </div>
             </div>
         </div>

@@ -2,21 +2,25 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    border-bottom: 2px solid #353535;
 }
 
 .todoMainUserInfoHeader {
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
+    padding: 10px 0px;
     width: 90%;
-    min-height: 10vh;
     margin: auto;
 }
 
-.userProfileContainer {
-    display: flex;
-    align-items: center;
+.userProfile {
+    width: 35px;
+    height: 35px;
+    margin-left: 15px;
+    border-radius: 8px;
 }
 
 .userProfileContainer .userProfile {
@@ -26,10 +30,8 @@
     border-radius: 8px;
 }
 
-.userProfileContainer .userName {
-    margin-left: 15px;
-    font-size: 18px;
-    font-weight: 500;
+.userProfile {
+    cursor: pointer;
 }
 
 .userAccountOptions {
@@ -38,12 +40,26 @@
     justify-content: space-evenly;
 }
 
-.userAccountOptions .siteUpdates {
+.userAccountOptions .siteUpdatesIcons {
     margin-right: 25px;
+    cursor: pointer;
+}
+
+.todoMainUserInfoHeader .logoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 80%;
+    margin: auto;
+}
+
+.todoMainUserInfoHeader .logoContainer h3 {
+    font-weight: bold;
+    text-decoration: line-through;
 }
 
 .userAccountOptions .signOut {
-    padding: 10px 15px;
+    padding: 9px 15px;
     border: none;
     background-color: #2e2e2e;
     color: #fff;
