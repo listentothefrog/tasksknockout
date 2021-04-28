@@ -6,7 +6,7 @@
 }
 
 .todoBoxContainer .todoFormInput {
-    width: 1000px;
+    width: 850px;
     height: 45px;
     border: none;
     margin-right: 15px;
@@ -14,6 +14,29 @@
     border: 1px solid #2e2e2e;
     border-radius: 8px;
     font-weight: 500;
+}
+
+.todoBoxContainer .todoPriority {
+    width: 350px;
+    height: 45px;
+    border: none;
+    margin-right: 15px;
+    font-size: 15px;
+    border: 1px solid #2e2e2e;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.todoBoxContainer .todoAddToList {
+    width: 120px;
+    height: 44px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2e2e2e;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
 }
 
 .todoFormContainer {
@@ -53,6 +76,11 @@
         color: #fff;
     }
     .todoBoxContainer .tasksSubmitBtn {
+        background-color: #fff;
+        color: #2e2e2e;
+        font-weight: 500;
+    }
+    .todoBoxContainer .todoAddToList {
         background-color: #fff;
         color: #2e2e2e;
         font-weight: 500;

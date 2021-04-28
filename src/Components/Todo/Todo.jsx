@@ -8,8 +8,9 @@ function Todo() {
                 <div className="todoInputsContainer">
                     <form className="todoFormContainer" action="submit">
                         <div className="todoAddContainer">
-                            <AddIcon className="addTodoIcon"/>
                             <input placeholder="   What are your tasks?" className="todoFormInput"/>
+                            <input placeholder="   Priority(High,Medium,Low)" className="todoPriority"/>
+                            <button className="todoAddToList">Add it</button>
                         </div>
                     </form>
                     <div className="userTodosContainer">
